@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using Common;
 
 namespace WebApi.Models
 {
@@ -12,6 +9,8 @@ namespace WebApi.Models
         public string AtomicSymbol { get; set; }
 
         public string AtomicName { get; set; }
+
+        public PhysicalState StateAtRoomTemperature { get; set; }
 
         public double AtomicMass { get; set; }
         

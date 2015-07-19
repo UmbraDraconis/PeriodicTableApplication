@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
-using System.Web.Http;
+﻿using System.Web.Http;
 using WebApi.Models;
 using WebApi.Repository;
 
@@ -18,14 +13,9 @@ namespace WebApi.Controllers
             _elementRepository = new ElementRepository();
         }
 
-        public ElementModel Get()
+        public ElementModel Get(int AtomicId = 1)
         {
-            return null;
-        }
-
-        public ElementModel Get(int AtomicId)
-        {
-            return null;
+            return _elementRepository.GetElement(AtomicId);
         }
     }
 }
