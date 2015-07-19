@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using WebApi.Models;
 
 namespace WebApi.Repository
@@ -15,9 +13,18 @@ namespace WebApi.Repository
             _elements = new List<ElementModel>();
         }
 
-        public List<ElementModel> Create()
+        public void Create()
         {
-            return null;
+        }
+
+        public ElementModel GetElement(int elementId)
+        {
+            return _elements.Where(e => elementId == e.AtomicNumber).FirstOrDefault();
+        }
+
+        public List<ElementModel> GetAllElements()
+        {
+            return _elements;
         }
     }
 }
