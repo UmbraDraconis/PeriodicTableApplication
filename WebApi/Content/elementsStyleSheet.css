@@ -1,20 +1,22 @@
 ﻿
-table, th, td 
+#main table, th, td 
 {
     border: 1px solid black;
     border-collapse: separate;
     empty-cells:hide;
-}
-th, td 
+} 
+th, td
 {
     padding: 20px;
+}
 }
 .periodic_table
 {
     float: left;
+   
 }
 .element_card
 {
-    float: left;
+    float: right;
 }
 
