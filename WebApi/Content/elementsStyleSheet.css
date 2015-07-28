@@ -9,3 +9,12 @@ th, td
 {
     padding: 20px;
 }
+.periodic_table
+{
+    float: left;
+}
+.element_card
+{
+    float: left;
+}
+
