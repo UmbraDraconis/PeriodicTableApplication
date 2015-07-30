@@ -1,19 +1,19 @@
 ﻿
-#main table, th, td 
+#main 
 {
-    border: 1px solid black;
-    border-collapse: separate;
-    empty-cells:hide;
+    width: 400px;
+    height: 150px;
 } 
 th, td
 {
     padding: 20px;
-}
+    border: 1px solid black;
+    border-collapse: separate;
+    empty-cells:hide;
 }
 .periodic_table
 {
-    float: left;
-   
+    float: left; 
 }
 .element_card
 {
