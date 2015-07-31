@@ -1,6 +1,7 @@
 ﻿
 #main 
 {
+    float: left; 
     width: 400px;
     height: 150px;
 } 
@@ -11,12 +12,9 @@ th, td
     border-collapse: separate;
     empty-cells:hide;
 }
-.periodic_table
-{
-    float: left; 
-}
 .element_card
 {
     float: right;
+    border: 1px solid black;
 }
 
