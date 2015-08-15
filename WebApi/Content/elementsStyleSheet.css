@@ -1,10 +1,24 @@
 ﻿
+html{
+    min-width: 1200px;
+}
 #main 
 {
-    float: left; 
-    width: 400px;
-    height: 150px;
-} 
+    width:80%;
+    margin: 0 auto;
+    }
+#table-container{
+    width:75%;
+    float: left;
+    }
+#flashcard-container{
+    width:20%;
+    height:400px;
+    float:right;
+    border:1px solid black;
+    text-align:center;
+    background-color:#888;
+  }
 th, td
 {
     padding: 20px;
@@ -12,9 +26,14 @@ th, td
     border-collapse: separate;
     empty-cells:hide;
 }
-.element_card
-{
-    float: right;
-    border: 1px solid black;
+#image-flashcard{
+    width:100px;
+    height:100px;
+    border:1px solid black;
+    margin:15px 0 0 15px;
+    font-size:50px;
+  }
+#image-flashcard > p {
+    margin:20px 0;
 }
 
